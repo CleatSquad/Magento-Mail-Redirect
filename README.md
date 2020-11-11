@@ -1,5 +1,7 @@
 # Magento 2 Mail Redirect
 
+[![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/v)](//packagist.org/packages/phpunit/phpunit) [![Total Downloads](https://poser.pugx.org/phpunit/phpunit/downloads)](//packagist.org/packages/phpunit/phpunit) [![Latest Unstable Version](https://poser.pugx.org/phpunit/phpunit/v/unstable)](//packagist.org/packages/phpunit/phpunit) [![License](https://poser.pugx.org/phpunit/phpunit/license)](//packagist.org/packages/phpunit/phpunit)
+
 This module allows you to redirect all emails that leave Magento to a specific email. and this in order to prevent customers during the development period from receiving test emails.
 
 ## Introduction
