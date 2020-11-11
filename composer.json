@@ -1,0 +1,32 @@
+{
+  "name": "mimou78/magento-2-mail-redirect",
+  "description": "This module allows you to redirect all emails that leave Magento to a specific email. and this in order to prevent customers during the development period from receiving test emails.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Mohamed El Mrabet",
+      "email": "mimou@gmail.com",
+      "homepage": "https://www.moahmedelmrabet.com/",
+      "role": "Main developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "keywords": [
+    "magento 2",
+    "magento 2 email",
+    "magento 2 replace email recipients",
+    "Magento catcher mail",
+    "Magento redirect mail",
+    "email recipients"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mim\\MailRedirect\\": ""
+    }
+  }
+}
