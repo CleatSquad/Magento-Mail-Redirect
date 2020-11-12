@@ -1,7 +1,10 @@
 # Magento 2 Mail Redirect
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/mimou78/magento-2-mail-redirect)](https://github.com/mimou78/magento-2-mail-redirect/stargazers)
 [![Latest Stable Version](https://poser.pugx.org/mimou78/magento-2-mail-redirect/v)](//packagist.org/packages/mimou78/magento-2-mail-redirect)
 [![Total Downloads](https://poser.pugx.org/mimou78/magento-2-mail-redirect/downloads)](//packagist.org/packages/mimou78/magento-2-mail-redirect)
+[![Open Source Helpers](https://www.codetriage.com/mimou78/magento-2-mail-redirect/badges
 
 This module allows you to redirect all emails that leave Magento to a specific email. and this in order to prevent customers during the development period from receiving test emails.
 
@@ -20,7 +23,7 @@ Hence the usefulness of this module because it is easy to set up and to use.
 ## Installation
 
 ```
-$ composer require "mimou78/magento-2-mail-redirect":"1.0"
+$ composer require "mimou78/magento-2-mail-redirect"
 $ php bin/magento setup:upgrade
 ```
 
@@ -29,11 +32,3 @@ $ php bin/magento setup:upgrade
 `Magento Admin > Stores > Configuration > Advanced > Developer > Redirect Emails`
 
 ![Redirect Emails Admin Configuration](docs/img/redirect_mail_admin.png)
-
-## Developer
-
-[Mohamed El Mrabet](https://www.mohamedelmrabet.com)
-
-## License
-
-[Open Software License ("OSL") v. 3.0](https://opensource.org/licenses/OSL-3.0)

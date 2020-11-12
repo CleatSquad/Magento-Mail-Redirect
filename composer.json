@@ -3,7 +3,7 @@
   "description": "This module allows you to redirect all emails that leave Magento to a specific email. and this in order to prevent customers during the development period from receiving test emails.",
   "type": "magento2-module",
   "version": "1.0.0",
-  "license": "OSL-3.0",
+  "license": "MIT",
   "authors": [
     {
       "name": "Mohamed El Mrabet",
